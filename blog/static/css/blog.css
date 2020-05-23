@@ -24,6 +24,7 @@ h1, h2, h3, h4 {
 
 .save {
     float: right;
+    color:red;
 }
 
 .post-form textarea, .post-form input {
