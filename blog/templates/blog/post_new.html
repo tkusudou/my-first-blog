@@ -5,7 +5,5 @@
     <form method="POST" class="post-form">{% csrf_token %}
         {{ form.as_p }}
         <button type="submit" name="save"  class="save btn btn-default">Save</button>
-        <button type="submit" name="delete" class="delete btn btn-default" href="{% url 'post_delete' pk=post.pk %}">Delete</button>
     </form>
-    
 {% endblock %}
